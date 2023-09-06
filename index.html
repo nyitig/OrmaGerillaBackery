@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- PRELOAD -->
+  <link rel="preload" href="style.css" as="style">
+  <!-- PRELOAD END -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orma Gerilla Pékség">
+  <meta name="keywords" content="Orma,Gerilla,Pékség,pékárú,péksüti">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="distribution" content="global">
+  <meta name="author" content="NyitiG">
+  <meta name="revised" content="NyitiG Világa, 2023/07/24">
+  <title>Orma Gerilla Pékség</title>
+  <link rel="shortcut icon" href="/assets/img/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="FullPage" class="column">
+    <header id="header" class="row" >
+      <nav id="desktop" class=""></nav>
+      <nav id="mobile" class="row alItCent active ">
+        <div id="logosCont" class="">
+          <img src="/assets/img/logo.png" alt="" width="100" height="100">
+        </div>
+        <div id="menuSvg" class="column justCoCent">
+          <img id="menuSvgImg" src="/assets/img/menu-outline.svg" alt="" width="40" height="40" class="marinCent imgFilter">
+        </div>
+        <div id="menuCont" class="">
+          <div id="insideCont" class="">
+            <div id="closeMenuCont" class="">
+              <img id="closeMobileMenuBtn" src="/assets/img/close-outline.svg" alt="" width="50" height="50" class="imgFilterGray">
+            </div>
+            <a href="#ourStory" id="storyLink" class="menulinks">Történetünk</a>
+            <!-- <a href="#services" id="servicesLink" class="">Szolgáltatásaink</a> -->
+            <a href="#products" id="productsLink" class="menulinks ">Termékeink</a>
+            <a href="#impress" id="impressLink" class="menulinks">Impresszum</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main" class="">
+      <div id="backgroundVideoCont">
+        <video id="backgroundVideo" autoplay muted loop poster="/assets/img/mainBackgroundImg.jpg" src="/assets/video/backbroundVideo.mp4"></video>
+          <!-- <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/_om7--IxCIY?autoplay=1&cc_load_policy=1&controls=0&disablekb=1&loop=1&modestbranding=1&mute=1&playlist=_om7--IxCIY" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  
+          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe> -->
+      </div>
+      <!-- <div class="backgroundsPic">
+        <img src="/assets/img/mainBackgroundImg.jpg" alt="" width="100%" height="100%">
+      </div> -->
+      <div id="videoMask" class=""></div>
+      <div id="mainTextBox" class="marinCent">
+        <div id="mainTextCont" class="column alItCent">
+          <h1 class="colorBackgroundColor marginTop">Mindig friss</h1>
+          <h2 class="colorBackgroundColor marginTop">Kiváló pékárú</h2>
+          <a href="#products" id="poductsButton" class="">Termékeink</a>
+        </div>
+      </div>
+
+    </main>
+    <section id="otherSections" class="">
+      <div id="otherSectionsCont" class="column">
+        <section id="ourStory" class="sectionsPadding">
+          <div id="ourStoriesCont" class="column alItCent">
+            <div id="ourStoriesPicCont" class="">
+              <img src="/assets/img/ourStoryPic.jpg" alt="" width="320" height="auto">
+            </div>
+            <div id="ourStopiesTextCont" class="">
+              <h2 id="ourStoriesH2" class="textCent">A pékségünk története</h2>
+              <p class="">A legtitkosabb összetevője a szeretet. Így lesz egyedi a péksütink.</p>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique placeat consequuntur 
+                asperiores ut harum, quis nihil id eveniet, quas dicta repellendus minima quisquam facilis ad vitae, 
+                ducimus laborum incidunt!
+              </p>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique placeat consequuntur 
+                asperiores ut harum, quis nihil id eveniet, quas dicta repellendus minima quisquam facilis ad vitae, 
+                ducimus laborum incidunt!
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- <section id="services" class=""></section> -->
+        <section id="products" class="sectionsPadding">
+          <h2 id="productsH2" class="textCent">Termékeink</h2>
+          <p class="colorBackgroundColor textCent">Itt láthatod aktuális termékeinket</p>
+          <div class="productBoxCont">
+            <div class="productBoxes">
+              <div class="productInfosCont">
+                <img src="/assets/img/information-circle-outline.svg" alt="" width="30" height="30" class="prodInfosIcon">
+                <h3 class="productName"></h3>
+                <p class="prInfText"></p>
+                <p class="prodInfPrice"></p>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+        <section id="impress" class="sectionsPadding">
+          <div id="openingHours" class="">
+            <h3 id="opHoursH3" class="">Nyitvatartásunk</h3>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
